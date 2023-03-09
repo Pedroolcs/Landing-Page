@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --clr: rgb(182, 84, 212);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to bottom, #f8fafb, #dcedff, #d2dcff, #ddc5ff, #f4a9ea);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu-item{
+    font-family: 'Poppins', sans-serif;
+    color: #252527;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.header-menu-item:hover{
+    letter-spacing: 0.15em;
+    color: #e3aaf3;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 100px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 57px;
+    color: #252527;
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #252527;
+}
+
+.conteudo-principal-butao{
+    background-color: #e4a5db;
+    height: 64px;
+    width: 340px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    /*box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);*/
+    cursor: pointer;
+    color: #dcedff;
+}
+
+.conteudo-principal-butao:hover{
+    transition: 0.3s;
+    background: #cf7fd8;
+    color: #6b466b;
+    box-shadow: 0px 0px 30px var(--clr);
+}
+
+.logo{
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.arte-zeen-chin{
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 700px;
+    padding-top: 18px;
+}
+
+.conteudo-secundario{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.rodape{
+    background-color: #A26EA3;
+    display: flex;
+    flex-direction: column;
+    padding-left: 95px;
+    height: 150px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rodape .social-media{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+#tt{
+    cursor: pointer;
+    width: 30px;
+}
+
+#fb{
+    cursor: pointer;
+    width: 30px;
+}
+
+#ig{
+    cursor: pointer;
+    width: 30px;
+}
