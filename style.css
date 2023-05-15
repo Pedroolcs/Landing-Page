@@ -132,18 +132,7 @@ body{
     gap: 15px;
 }
 
-
-#tt{
+#tt, #fb, #ig {
     cursor: pointer;
-    width: 30px;
-}
-
-#fb{
-    cursor: pointer;
-    width: 30px;
-}
-
-#ig{
-    cursor: pointer;
-    width: 30px;
+    width: 30px
 }
